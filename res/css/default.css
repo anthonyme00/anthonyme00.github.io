@@ -1,0 +1,10 @@
+@font-face { font-family: Square; src: url('../fonts/Square-Regular.otf');}
+@font-face { font-family: Square; font-weight: bold; src: url('../fonts/Square-Bold.otf');}
+@font-face { font-family: Square; font-weight: lighter; src: url('../fonts/Square-Light.otf');}
+
+body {
+    background-color: #111210;
+    color: white;
+    font-family: 'Square';
+    font-size: large;
+}
