@@ -1,3 +1,8 @@
+$.ajaxSetup ({
+    // Disable caching of AJAX responses
+    cache: false
+});
+
 function clearActive(){
     $('#page1').removeClass('active');
     $('#page2').removeClass('active');
@@ -32,5 +37,3 @@ $('#page4').click((event)=>{
     $('#content').load('arts/arts.html');
 }
 )
-
-$('#page1').click();
